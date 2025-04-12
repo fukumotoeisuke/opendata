@@ -93,7 +93,7 @@ export default function MapComponent() {
                     >
                         <Popup>
                             <strong>{loc.name}</strong><br />
-                            住所: {loc.address},<br /> 電話番号: {loc.tel}<br />
+                            住所: {loc.address}<br /> 電話番号: {loc.tel}<br />
                             クリックすると詳細ページに飛びます。
                         </Popup>
                     </CircleMarker>
@@ -104,7 +104,7 @@ export default function MapComponent() {
                     type='text'
                     value={address}
                     onChange={(e) => setAddress(e.target.value)}
-                    placeholder='住所を入力するとズームされます。'
+                    placeholder='住所を入力するとズームされます。※都道府県から入力してください。'
                     className='inputForm'
                     required
                 />
