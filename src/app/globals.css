@@ -22,6 +22,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#8b8c89;
 }
 
 * {
@@ -30,6 +31,46 @@ body {
   margin: 0;
 }
 
+.title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.inputForm {
+  margin-top: 10px;
+  padding: 10px;
+  width: 400px;
+}
+
+.inputButton {
+  padding: 10px;
+  margin-left: 10px;
+  width: 80px;
+}
+
+.footerItem {
+  margin: 10px;
+}
+
+.explain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+}
 a {
   color: inherit;
   text-decoration: none;
