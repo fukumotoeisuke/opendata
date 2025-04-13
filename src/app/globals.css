@@ -32,11 +32,15 @@ body {
 }
 
 .title {
+  padding: 0.4em;
+  color: black;
+  border-left: solid 20px #7db4e6;
+  border-bottom: solid 10px #d7d7d7;
   display: flex;
   text-align: center;
   justify-content: center;
   font-family: 'Playfair Display', serif;
-  padding: 20px;
+  padding: 0.5em;
 }
 
 footer {
@@ -47,12 +51,13 @@ footer {
 
 .form {
   text-align: center;
+  
 }
 
 .inputForm {
   margin-top: 10px;
   padding: 10px;
-  width: 400px;
+  width: 500px;
 }
 
 .inputButton {

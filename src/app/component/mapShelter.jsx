@@ -72,7 +72,7 @@ export default function MapComponent() {
 
     return (
         <div>
-            <MapContainer center={[34.85, 135.58]} zoom={13} style={{ height: '550px', width: '100%' }} ref={mapRef}>
+            <MapContainer center={[34.85, 135.58]} zoom={13} style={{ height: '600px', width: '100%' }} ref={mapRef}>
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     attribution="© OpenStreetMap contributors"
