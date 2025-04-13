@@ -13,7 +13,7 @@ export default function Home() {
         <p className="footerItem">Mapped By </p>
         <Image src="/leaflet.png" width={100} height={40} alt="leaflet-logo" />
       </footer>
-      <p className="explain">マップには高槻市のオープンデータを使用しています。</p>
+      <p className="explain">本アプリには高槻市のオープンデータを使用しています。</p>
     </div>
   );
 }
